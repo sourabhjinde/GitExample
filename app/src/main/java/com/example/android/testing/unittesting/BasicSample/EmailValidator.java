@@ -39,7 +39,7 @@ public class EmailValidator implements TextWatcher {
                     ")+"
     );
 
-    private boolean mIsValid = false;
+    private boolean mIsValid = true;
 
     public boolean isValid() {
         return mIsValid;
